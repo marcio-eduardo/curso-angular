@@ -13,7 +13,7 @@ export class ProductReadComponent implements OnInit {
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
   
   products: Product[]
-  displayedColumns = ['id', 'name', 'price']
+  displayedColumns = ['id', 'name', 'price', 'action']
 
   constructor(private productService: ProductService) { }
 
